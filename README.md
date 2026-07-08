@@ -77,21 +77,25 @@ Although fine image details remain blurred due to limited training epochs, the m
 
 ## Screenshots
 
-### Dataset Sample
+### Input and Target Images
 
-![Dataset Sample](screenshots/dataset_sample.png)
+![Dataset Sample](screenshots/task4_input_target_image.png)
 
-### Generator Architecture
+### Generator (U-Net) Architecture
 
-![Generator](screenshots/generator_architecture.png)
+![Generator](screenshots/task4_generator_unet.png)
 
-### Training Logs
+### Discriminator (PatchGAN) Architecture
 
-![Training](screenshots/training_logs.png)
+![Discriminator](screenshots/task4_discriminator_model.png)
+
+### Training Progress
+
+![Training](screenshots/task4_training_epochs.png)
 
 ### Prediction Result
 
-![Prediction](screenshots/prediction_result.png)
+![Result](screenshots/task4_prediction_result.png)
 
 ---
 
@@ -100,10 +104,11 @@ Although fine image details remain blurred due to limited training epochs, the m
 PRODIGY_GA_04
 │
 ├── screenshots/
-│   ├── dataset_sample.png
-│   ├── generator_architecture.png
-│   ├── training_logs.png
-│   └── prediction_result.png
+│   ├── task4_input_target_image.png
+│   ├── task4_generator_unet.png
+│   ├── task4_discriminator_model.png
+│   ├── task4_training_epochs.png
+│   └── task4_prediction_result.png
 │
 ├── .gitignore
 ├── PRODIGY_GA_04_Pix2Pix.ipynb
