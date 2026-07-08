@@ -83,7 +83,7 @@ Although fine image details remain blurred due to limited training epochs, the m
 
 ### Generator (U-Net) Architecture
 
-![Generator](screenshots/task4_generator_unet.png)
+![Generator](screenshots/task4_generator_UNet.png)
 
 ### Discriminator (PatchGAN) Architecture
 
