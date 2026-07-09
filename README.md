@@ -1,5 +1,7 @@
 # PRODIGY_GA_04
 
+## Task 04 - Generative AI Internship @ Prodigy InfoTech
+
 ## Image-to-Image Translation using Conditional GAN (pix2pix)
 
 ### Overview
@@ -13,6 +15,17 @@ The model was trained on the Facades Dataset, where architectural label maps are
 ## Project Objective
 
 Generate realistic building facade images from semantic label maps using the Pix2Pix image-to-image translation framework.
+
+---
+
+## Features
+
+- Image-to-image translation using Pix2Pix
+- Conditional GAN (cGAN) implementation
+- U-Net Generator architecture
+- PatchGAN Discriminator architecture
+- Trained on paired facade image data
+- Implemented in Google Colab
 
 ---
 
@@ -67,6 +80,16 @@ The Generator progressively learned facade structures, windows, floors, and arch
 
 ---
 
+## Project Workflow
+
+1. Loaded and preprocessed the Facades Dataset.
+2. Split images into input-label and target-photo pairs.
+3. Built the U-Net Generator model.
+4. Built the PatchGAN Discriminator model.
+5. Trained the Pix2Pix network using adversarial learning.
+6. Generated facade images from semantic label maps.
+7. Evaluated the generated outputs.
+
 ## Results
 
 The trained Pix2Pix model successfully generated building facade images from semantic label maps.
@@ -117,7 +140,3 @@ PRODIGY_GA_04
 └── LICENSE
 
 ---
-
-## Internship Information
-
-Completed as part of the Generative AI Internship Program at Prodigy InfoTech.
