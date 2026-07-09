@@ -90,6 +90,8 @@ The Generator progressively learned facade structures, windows, floors, and arch
 6. Generated facade images from semantic label maps.
 7. Evaluated the generated outputs.
 
+---
+
 ## Results
 
 The trained Pix2Pix model successfully generated building facade images from semantic label maps.
